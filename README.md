@@ -4,17 +4,15 @@
 
 # 실험 내용
 
-## model
+## style
 
-- naver hyper clova API인 HCX-003, HCX-DASH-001 모델을 비교 분석함
-- 분석 결과 HCX-003의 비용, 추론 속도 등은 HCX-DASH-001에 비해 부족했지만, 감당 가능한 수준이었음
-- 분석 결과 HCX-DASH-001은 톤앤매너의 분위기 이해 등 품질면에서 부족한 수준이었음
-- HCX-003 모델 결정
+- text2img에 잘 반영되는 style을 찾아 실험 진행
+- colored pencil의 경우 실제 연필이 그림에 포함되는 경우 발생 => 해당 style별 negative prompt 설정하여 실험 진행
 
-## parameter
+## angle
 
 - 품질에 영향을 미치는 parameter의 수치를 변화하는 방식으로 parameter의 영향 파악
-- temperature 0.5 결정
+- 가장 뛰어난 품질을 가지도록 prompt 설정 (Bird eye view, Overhead view, Top-down view는 모두 같은 의미지만 Overhead view가 가장 효과가 좋았음)
 
 # 환경 설치
 
