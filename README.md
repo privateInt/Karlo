@@ -1,6 +1,6 @@
 # 프로젝트 목적
 
-- 사용자 입력값(키워드, 화풍, 구도)을 text2img API(kakao brain Karlo)에 전달하여 해당 이미지 생성
+- 사용자 입력값(키워드, 화풍, 구도)을 text2img API(kakao brain Karlo)가 잘 이해할 수 있도록 prompt engineering 테스트
 
 # 실험 내용
 
